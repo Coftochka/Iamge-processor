@@ -1,0 +1,11 @@
+usage:
+    image_proceessor input_file.bmp output_file.bmp [-options]
+        or 
+    image_proceessor --help
+
+options:
+--help              To print this manual
+-gs                 To use Grayscale filter
+-sharp              To make image shearper and more detalized
+-edge threshold     To find edges of objects with given sensivity
+-crop width height  To crop image to size of (width, height), counted from top left corner
